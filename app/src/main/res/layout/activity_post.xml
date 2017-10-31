@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tgr.wservice.PostActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nome do estado"
+        android:id="@+id/estadoPutV"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="População"
+        android:id="@+id/populationPutV"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="No de industrias"
+        android:id="@+id/industriasPutV"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="salvar"
+        android:onClick="retrieve"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Sigla de estado"
+        android:id="@+id/estadoViewP"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_gravity="center_horizontal"
+        android:onClick="toApi"/>
+
+</LinearLayout>
