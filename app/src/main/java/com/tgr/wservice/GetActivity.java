@@ -164,6 +164,7 @@ public class GetActivity extends AppCompatActivity {
             finalS = "";
 
             for(int x = 0; x < arr.length/20; x++) {
+                finalS += "Id: " + arr[2+20*x] + "\n";
                 finalS += "Estado: " + arr[17+20*x] + "\n";
                 finalS += "Cidade: " + arr[5+20*x] + "\n";
                 finalS += "Endereço: " + arr[9+20*x] + "\n";
