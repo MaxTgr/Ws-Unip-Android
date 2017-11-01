@@ -5,40 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.tgr.wservice.PostActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postMain"
+        android:textSize="18sp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Nome do estado"
+        android:hint="@string/postEst"
         android:id="@+id/estadoPutV"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="População"
-        android:id="@+id/populationPutV"/>
+        android:hint="@string/postCid"
+        android:id="@+id/cidadePutV"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="No de industrias"
-        android:id="@+id/industriasPutV"/>
+        android:hint="@string/postEnd"
+        android:id="@+id/locPutV"
+        android:layout_weight="0.25"
+        android:gravity="start"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/postDesc"
+        android:id="@+id/descPutV"
+        android:layout_weight="0.5"
+        android:gravity="start"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="salvar"
+        android:text="@string/postSend"
         android:onClick="retrieve"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="Sigla de estado"
-        android:id="@+id/estadoViewP"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enviar"
-        android:layout_gravity="center_horizontal"
-        android:onClick="toApi"/>
 
 </LinearLayout>

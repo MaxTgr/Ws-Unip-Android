@@ -4,29 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tgr.wservice.GetActivity">
+    tools:context="com.tgr.wservice.GetActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/getMain"
+        android:textSize="18sp"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="Sigla de estado"
-        android:id="@+id/estadoView" />
+        android:layout_height="wrap_content"
+        android:hint="@string/denId"
+        android:layout_marginTop="5dp"
+        android:id="@+id/denId"/>
 
     <Button
-        android:id="@+id/getbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:onClick="get"
-        android:text="Get" />
+        android:text="@string/espId"
+        android:onClick="especifico"/>
 
     <Button
-        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:onClick="button"
-        android:text="Refresh" />
+        android:text="@string/allId"
+        android:onClick="todos"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +40,7 @@
         android:padding="20dp">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/main"/>
     </ScrollView>
 

@@ -19,8 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GetActivity" />
-        <activity android:name=".PostActivity"></activity>
+        <activity android:name=".GetActivity" android:label="@string/get_name"/>
+        <activity android:name=".PostActivity" android:label="@string/set_name">
+
+        </activity>
     </application>
 
 </manifest>

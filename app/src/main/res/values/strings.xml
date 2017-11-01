@@ -1,35 +1,21 @@
 <resources>
-    <string name="app_name">WService</string>
-
-    <string-array name="est_array">
-        <item>AC</item>
-        <item>AL</item>
-        <item>AP</item>
-        <item>AM</item>
-        <item>BA</item>
-        <item>CE</item>
-        <item>DF</item>
-        <item>ES</item>
-        <item>GO</item>
-        <item>MA</item>
-        <item>MT</item>
-        <item>MS</item>
-        <item>MG</item>
-        <item>PA</item>
-        <item>PB</item>
-        <item>PR</item>
-        <item>PE</item>
-        <item>PI</item>
-        <item>RJ</item>
-        <item>RN</item>
-        <item>RS</item>
-        <item>RO</item>
-        <item>RR</item>
-        <item>SC</item>
-        <item>SP</item>
-        <item>SE</item>
-        <item>TO</item>
-    </string-array>
-
+    <string name="app_name">Projeto de Web Service</string>
+    <string name="get_name">Denuncias</string>
+    <string name="set_name">Campo de envio</string>
+    <string name="icon">icon</string>
+    <string name="denId">Id da denuncia</string>
+    <string name="espId">Ver específica</string>
+    <string name="allId">Ver todas</string>
+    <string name="getMain">veja aqui as denuncias feitas pelos usuarios</string>
+    <string name="postMain">Por favor informe sua denuncia abaixo, todos os campos são obrigatorios</string>
+    <string name="postEst">Sigla do estado</string>
+    <string name="postCid">Nome da cidade</string>
+    <string name="postEnd">Endereço</string>
+    <string name="postDesc">Descrição</string>
+    <string name="postSend">Enviar</string>
+    <string name="mainAD">Adicionar Denuncia</string>
+    <string name="mainLR">Listar Registros</string>
+    <string name="cc">"Icone feito por freepik.com de flaticon.com é licenciado por CC 3.0 BY"</string>
+    <string name="hello">Temos que cuidar da nossa casa\nPor isso criamos esse aplicativo\nCom ele você pode denunciar pontos de poluição na sua cidade"</string>
 
 </resources>
